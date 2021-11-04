@@ -5,8 +5,8 @@ const Won = () => {
     return (
         <div>
             <h1>Won</h1>
-            <h1><Link to="/play">Try Again</Link></h1>
-            <h1> <Link to="/">Go Home</Link></h1>
+            <h1><Link to="/Categ"  style={{textDecoration:"none", color:"white"}} >Try Again</Link></h1>
+            <h1> <Link to="/"  style={{textDecoration:"none", color:"white"}} >Go Home</Link></h1>
         </div>
     )
 }

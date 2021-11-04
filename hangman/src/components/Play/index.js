@@ -11,6 +11,7 @@ const Play = () => {
   const [word, setword] = useState(
     words[Math.floor(Math.random() * words.length)]
   );
+  console.log(words);
   const [dashes, setDashes] = useState("-".repeat(word.length));
   const [guesses, setguesses] = useState(5);
   let letters = [

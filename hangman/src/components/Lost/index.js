@@ -6,8 +6,8 @@ const Lost = () => {
     return (
         <div className="list-lost">
             <h1>Lost</h1>
-            <h1><Link to="/play">Try Again</Link></h1>
-            <h1> <Link to="/">Go Home</Link></h1>
+            <h1><Link to="/Categ" style={{textDecoration:"none", color:"white"}} >Try Again</Link></h1>
+            <h1> <Link to="/"  style={{textDecoration:"none", color:"white"}} >Go Home</Link></h1>
         </div>
     )
 }
