@@ -1,6 +1,18 @@
 .play{
     display: flex;
-    justify-content: space-between;
+    font-size: 20px;
+    /* text-align: center */
+    /* justify-content: space-between; */
+    /* text-align: center; */
+    /* width: 50rem; */
+    /* height: 100px; */
+}
+
+.play h4 {
+margin-left: 20px
+}
+.play button {
+  width: 40px;
 }
 
 .letters {
@@ -14,7 +26,19 @@
   margin: 3px;
   height: 40px;
 }
-.guess {
+/* .guess {
   font-size: 3rem;
   padding: 0 4rem;
+} */
+
+.imagegg{
+
+  width: 20rem;
+  height: 20rem;
+  border: none;
+}
+.letter:hover{
+
+ background-color: cornflowerblue;
+  
 }
