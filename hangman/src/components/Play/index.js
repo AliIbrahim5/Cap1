@@ -70,7 +70,7 @@ const Play = () => {
     }
   };
 
-  const [seconds, setSeconds] = useState(60);
+  const [seconds, setSeconds] = useState(1000);
   useEffect(() => {
     const interval = setInterval(() => {
       setSeconds((seconds) => seconds - 1);
@@ -97,6 +97,7 @@ const Play = () => {
           <h4>Guesses left: {guesses}</h4>
           <h4>time: {seconds}</h4>
           </div>
+          <h4 className="guess">{dashes}</h4>
           <div class="letters">
             {letters.map((letter, index) => {
               return (
@@ -113,7 +114,7 @@ const Play = () => {
             })}
 
           </div>
-          <h4 className="guess">{dashes}</h4>
+        
           </div>
           <div>
           
