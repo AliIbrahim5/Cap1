@@ -1,41 +1,67 @@
-.home{
-    width: 40%;
-color: white;
-height: 400px;
-display: flex;
-justify-content:center;
-flex-direction: column;
-align-items: center;
-    background: rgba(88, 88, 88, 0.5);
-border-radius: 10px;
-    
-}
+.home {
 
-.container{
+    width: 40%;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(55, 58, 97, 0);
+    border-radius: 100px;
+  
+  
+  
+  }
+  
+  .container {
     display: flex;
     height: 95vh;
     justify-content: center;
     align-items: center;
-
-}
-
-h1{
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
+  }
+  
+  h1 {
+    color: rgba(255, 255, 255, 0.658);
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
     width: 120px;
-    height: 43px    ;
-    margin: 15px 0;
+    height: 43px;
     text-align: center;
-text-decoration: none;
-}
-.h1_2{
+    position: relative;
+    border: 3px solid rgb(0, 0, 0);
+     background-color: rgba(0, 0, 0, 0.212);
+     
+  
+  }
+  
+  .h1_2 {
     width: 200px;
-    color: darkorange;
-}
-
-h1:hover{
-    background-color: white;
-    color: black;
+  }
+  
+  h1:hover {
+    border: 3px solid rgb(53, 30, 21);
+  
+    color: rgb(255, 255, 255);
     cursor: pointer;
-
-}
+    box-shadow: 0px 0px 93px 10px rgba(0, 0, 0, 0.479);
+  }
+  
+  
+  .nameGameR {
+    border: none;
+    color: rgba(146, 13, 13, 0.644);
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 40px;
+    display: inline;
+  }
+  .nameGameB {
+    border: none;
+    color: black;
+    font-family: cursive;
+    font-size: 40px;
+    display: inline;
+  }
