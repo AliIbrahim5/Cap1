@@ -15,7 +15,7 @@ const Play = () => {
   const location = useLocation();
   const myCateg =location.state?.myCateg;
   let words = myCateg;
-  const [word, setword] = useState(
+  const [word] = useState(
     words[Math.floor(Math.random() * words.length)]
   );
     const [picIndex, setpicIndex] = useState(0)
@@ -70,7 +70,7 @@ const Play = () => {
     }
   };
 
-  const [seconds, setSeconds] = useState(1000);
+  const [seconds, setSeconds] = useState(60);
   useEffect(() => {
     const interval = setInterval(() => {
       setSeconds((seconds) => seconds - 1);
@@ -118,7 +118,7 @@ const Play = () => {
           </div>
           <div>
           
-          <img  src={amges[picIndex]} className="imagegg" />
+          <img  src={amges[picIndex]} className="imagegg" alt="" />
           </div>
         </div>
           );

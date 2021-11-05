@@ -7,7 +7,7 @@ const Lost = () => {
     return (
         <div className="list-lost">
             <div className="imageLost">
-                <img src={imageLost}/>
+                <img src={imageLost} alt=""/>
 
             </div>
             <h1><Link to="/Categ" style={{textDecoration:"none", color:"white"}} >Try Again</Link></h1>

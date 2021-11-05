@@ -1,0 +1,14 @@
+h3{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 5vh;
+    color: rgb(168, 183, 190);
+    font-size: 40px;
+    
+    
+    
+    }
