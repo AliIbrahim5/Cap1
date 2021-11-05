@@ -1,0 +1,42 @@
+/* .imageLost {
+  background-color: rgba(255, 255, 255, 0.137);
+  
+} */
+.homeResult {
+    width: 60%;
+    color: white;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(221, 221, 221, 0.100);
+  }
+
+.LinkResult {
+    color: rgb(255, 255, 255);
+    font-family: 'Bungee', cursive;
+    font-size:3vw;
+    border-radius: 15px;
+    width: 400px;
+    height: 45px;
+    /* padding: 3%;
+    margin: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.212);
+    border: solid rgba(100, 64, 64, 0);
+  }
+  .LinkResult:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 3px solid white;
+  }
+  .less{
+      font-size: 1.5rem;
+      width: 200px;
+      margin: 0 auto;
+  }
