@@ -1,20 +1,15 @@
-.how-play {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: auto;
-  height: 100vh;
-  background-image: url("../../image/pepar.png");
-  background-repeat: no-repeat;
+.howtoplay{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height:50px;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: "Bungee";
 }
 
-h2 {
-  color: rgb(88, 87, 35);
-  font-size: 39px;
-}
-
-h5 {
-  color: chartreuse;
-  font-size: 30px;
+.howtoplay p{
+    font-size: 1rem;
+    margin: 0;
+    text-align: left;
 }

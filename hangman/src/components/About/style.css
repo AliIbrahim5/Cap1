@@ -1,14 +1,22 @@
-h3{
 
+
+
+.abouty{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
+    height:50px;
     align-items: center;
-    width: auto;
-    height: 5vh;
-    color: rgb(168, 183, 190);
-    font-size: 40px;
-    
-    
-    
-    }
+    font-size: 3rem;
+    font-family: "Bungee";
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:' ../../image/pepar.png';
+}
+
+.abouty p{
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: left;
+}

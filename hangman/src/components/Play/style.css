@@ -1,62 +1,91 @@
-.play{
-    font-size: 50px;
-    
-    display: flex;
-    position: absolute;
-   justify-content: space-around;
+@keyframes slideInFromLeft {
+  0% {
+    width: 40%;
+  }
+  100% {
     width: 60%;
-top: 0%;
-left: 22%;
-
-    /* text-align: center */
-    /* justify-content: space-between; */
-    /* text-align: center; */
-    /* width: 50rem; */
-    /* height: 100px; */
+  }
 }
 
+.homePlay {
+  animation: 1s 0s 1 slideInFromLeft;
+  animation-fill-mode: forwards;
+  color: white;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: rgba(221, 221, 221, 0.151);
+}
+
+.play {
+  font-size: 2vw;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 .play h4 {
-margin-left: 20px;
-color: brown;
-
+  margin: 0;
+  padding: 1rem;
+  font-family: "Patua One";
 }
+
 .play button {
   width: 40px;
 }
 
+.row {
+  display: flex;
+  width: 100%;
+}
 .letters {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
   justify-content: center;
-
+  height: 100%;
+  margin-left: 0.5rem;
+  padding: 20px;
+  width: 55%;
+  height: 100%;
 }
 .letter {
-  font-family:cursive;
-  width: 22%;
+  width: 20%;
+
+  font-family: cursive;
   margin: 3px;
-  height: 40px;
+  height: 41px;
   background-color: rgba(255, 255, 255, 0.151);
   color: white;
-  box-shadow: 0px 0px 54px 4px rgba(0,0,0,0.59);  
-  border-radius: 5px ;
-
+  font-size: 2.2vw;
+  line-height: 0;
+  border-radius: 5px;
+  border: none;
 }
-.guess{
+.letter:hover {
+  background-color: rgba(255, 0, 0, 0.822);
+  cursor: pointer;
+  border: 2px solid white;
+}
+.container2 {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  position: relative;
+}
+
+.guess {
   font-size: 3rem;
- text-align: right;
+  text-align: right;
+  margin: 1rem;
+  padding-left: 6rem;
+  letter-spacing: 1rem;
 }
 
-.imagegg{
-
+.imagegg {
+  position: absolute;
+  left: 45%;
+  top: 15%;
   width: 20rem;
   height: 20rem;
   border: none;
-}
-.letter:hover{
-
- background-color: cornflowerblue;
-transition: 0.5s;
- font-size: 20px;
-  
 }
