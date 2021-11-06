@@ -9,6 +9,7 @@ import Howplay from "./components/How-to-play";
 import About from "./components/About";
 import sound from "./image/audio.mp3";
 import { useEffect } from "react";
+import Error404 from "./components/Error404"
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
         <Route exact path="/categ" component={Categ} />
         <Route exact path="/howplay" component={Howplay} />
         <Route exact path="/about" component={About} />
+        <Route exact path="*" component={Error404} />
       </Switch>
     </div>
   );

@@ -33,9 +33,9 @@ const About = () => {
           <p className="names">
             Sulaiman Albulaihy
             <br />
-            Ali Alyahya
+             Abdullah Aljumah
             <br />
-            Abdullah Aljumah
+            Ali Alyahya
           </p>
         </div>
       </div>

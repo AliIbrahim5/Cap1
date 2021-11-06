@@ -1,5 +1,5 @@
 .imageLost {
-  background-color: rgba(0, 0, 0, 0.288);
+  /* background-color: rgba(0, 0, 0, 0.288); */
 }
 .imageLost img{
   width: 14vw;
@@ -14,32 +14,44 @@
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    background-color: rgba(221, 221, 221, 0.151);
+    background-color: rgba(133, 132, 132, 0.137);
   }
 
 .LinkResult {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.671);
     font-family: 'Bungee', cursive;
     font-size:3vw;
     border-radius: 15px;
     width: 23vw;
-    height: 4vh;
+    height: 3vh;
     padding: 3%;
     margin: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgba(0, 0, 0, 0.288);
     border: 3px solid rgba(255, 255, 255, 0);
+    transition: 0.3s;
+
   }
   .LinkResult:hover {
-    color: rgb(255, 255, 255);
+    color: white;
     cursor: pointer;
-    border: 3px solid white;
+    font-size:3.5vw;
+    /* width: 24vw; */
+    transition: 0.3s;
+
   }
   .less{
       font-size: 1.7vw;
       width: 10vw;
       margin: 0 auto;
+  }
+  .less:hover {
+    color: white;
+    cursor: pointer;
+    font-size:2.5vw;
+    width: 15vw;
+    transition: 0.3s;
   }
