@@ -11,3 +11,19 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+
+@media only screen and (max-width: 800px) {
+  .App{
+    background-image: url('./image/gif.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  
+  body{
+  
+    box-sizing: border-box;
+  } 
+ 
+}

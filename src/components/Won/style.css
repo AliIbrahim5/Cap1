@@ -11,3 +11,20 @@
     width: 22vw;
     margin-top: 3%;
 }
+
+@media only screen and (max-width: 800px) {
+  .list-won {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 100%;
+  }
+  
+  .wonImage {
+      width: 22%;
+      
+  }
+ 
+}
